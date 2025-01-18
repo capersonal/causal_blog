@@ -1,0 +1,20 @@
+# Basic Site Information
+title: "Notes on Causal Inference"          # The title of your blog
+description: "A blog about my thoughts and ideas on causal inference."  # A short description
+author: "Chad Akkoyun"       # Your name or blog author name
+
+# URL and Base Settings
+baseurl: ""               # Leave blank if the blog is at the root of the GitHub Pages site
+url: "https://capersonal.github.io"  # Replace <username> with your GitHub username
+
+# Build and Markdown Settings
+markdown: kramdown         # Use the kramdown markdown engine
+theme: minima              # Use the default Jekyll theme "minima"
+
+# Permalink Settings
+permalink: /:year/:month/:day/:title/  # URL format for your posts
+
+# Plugins (optional)
+plugins:
+  - jekyll-feed           # Add an RSS feed
+  - jekyll-seo-tag        # Add SEO metadata to your pages
