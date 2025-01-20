@@ -23,5 +23,5 @@ COPY . .
 EXPOSE 4000
 
 # Default command to build the site
-CMD ["bundle", "exec", "jekyll", "build"]
+CMD ["bundle", "exec", "jekyll", "serve", "--host", "0.0.0.0", "--port", "4000", "--watch"]
 

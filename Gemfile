@@ -1,3 +1,6 @@
 source 'https://rubygems.org'
-gem 'github-pages', group: :jekyll_plugins
+gem 'jekyll', '~> 4.2.0'
+gem 'jekyll-feed', '~> 0.12'
+gem 'faraday-retry' 
+# Add any other dependencies you need
 ruby '3.1.6'
