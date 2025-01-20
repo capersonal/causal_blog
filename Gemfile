@@ -5,4 +5,4 @@ gem 'faraday-retry'
 gem 'minima', '~> 2.5'
 gem 'webrick' 
 # Add any other dependencies you need
-ruby '3.3.4'
+ruby '3.1.6'
